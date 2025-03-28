@@ -1,10 +1,10 @@
-import os
-import subprocess
+# import os
+# import subprocess
 
-# Check if libGL.so.1 exists and install it if missing
-if not os.path.exists('/usr/lib/x86_64-linux-gnu/libGL.so.1'):
-    subprocess.run(['sudo', 'apt-get', 'update'])
-    subprocess.run(['sudo', 'apt-get', 'install', '-y', 'libgl1'])
+# # Check if libGL.so.1 exists and install it if missing
+# if not os.path.exists('/usr/lib/x86_64-linux-gnu/libGL.so.1'):
+#     subprocess.run(['sudo', 'apt-get', 'update'])
+#     subprocess.run(['sudo', 'apt-get', 'install', '-y', 'libgl1'])
 
 
 
