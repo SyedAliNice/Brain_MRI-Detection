@@ -1,17 +1,5 @@
-# import os
-# import subprocess
-
-# # Check if libGL.so.1 exists and install it if missing
-# if not os.path.exists('/usr/lib/x86_64-linux-gnu/libGL.so.1'):
-#     subprocess.run(['sudo', 'apt-get', 'update'])
-#     subprocess.run(['sudo', 'apt-get', 'install', '-y', 'libgl1'])
-
-
-
-
-
-
 import streamlit as st
+st.set_option('deprecation.showUseContainerWidth', False)
 import cv2
 import numpy as np
 from PIL import Image
