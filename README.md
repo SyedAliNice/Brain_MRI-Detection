@@ -12,11 +12,11 @@ This project is a Streamlit-based application that uses a YOLO11 model to detect
 ## Requirements
 Make sure you have the following dependencies installed:
 
-```streamlit
-opencv-python
-ultralytics
-numpy
-pillow```
+        ```streamlit
+        opencv-python
+        ultralytics
+        numpy
+        pillow```
 
 ## Installation and Setup
 
