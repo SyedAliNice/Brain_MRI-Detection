@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_option('deprecation.showUseContainerWidth', False)
 import cv2
 import numpy as np
 from PIL import Image
@@ -46,7 +45,7 @@ def main():
         
         with col1:
             st.subheader("Detected MRI Regions")
-            st.image(plotted_image_rgb, use_column_width=True)
+            st.image(plotted_image_rgb, use_container_width=True)
         
         # Cropped regions
         with col2:
@@ -62,7 +61,7 @@ def main():
                 roi = img[y1:y2, x1:x2]
                 roi_rgb = cv2.cvtColor(roi, cv2.COLOR_BGR2RGB)
                 
-                st.image(roi_rgb, caption=f"Region {i+1}", use_column_width=True)
+                st.image(roi_rgb, caption=f"Region {i+1}", use_container_width=True)
 
 if __name__ == "__main__":
     main()
