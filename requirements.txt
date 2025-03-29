@@ -1,6 +1,6 @@
-opencv-python-headless
-streamlit
-ultralytics
+opencv-python-headless==4.9.0.80  # Or your preferred version
+ultralytics==8.2.3  # Include other dependencies
+streamlit==1.36.0
 numpy
 Pillow
 torch
